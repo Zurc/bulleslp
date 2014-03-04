@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>Bulles d'Or</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+	<script type="text/javascript" src="js/respond.js"></script>
+	<script type="text/javascript" src="js/modernizr.min.js"></script>
+<!-- 	<link rel="stylesheet" type="text/css" href="css/medium.css" /> -->
+	<link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/narrow.css" />
+
+
+<!-- 	<link rel='stylesheet' media='screen and (max-width: 767px)' href='css/narrow.css' />
+	<link rel='stylesheet' media='screen and (min-width: 768px) and (max-width: 992px)' href='css/medium.css' />
+	<link rel='stylesheet' media='screen and (min-width: 993px)' href='css/wide.css' /> -->
+
+	
+</head>
+<body>
+
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 boxx">
+				<h1></h1>
+			</div>
+		</div> -->
+
+		<div class="row">
+			<div class="col-sm-8 col-md-8 col-lg-8 bgimg">
+				<img src="imgs/lpbgimg.jpg" class="img-responsive img-rounded" alt="Bulles d'Or">
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<h1 class="logo gh fontshade">Bulles d'Or <span class="punto">.</span></h1>
+			</div>
+		</div>
+
+		<div class="row event">
+			<div class="col-sm-8 col-sm-offset-4 col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4 shade">
+				<div class="row info">
+					<div class="fechayhora col-xs-12 col-sm-3 col-md-3 col-lg-3">
+						<div class="dosnueve">29</div>
+						<div class="mar">MAR</div>
+						<div class="hour">2:30-5:30PM</div>
+						<hr>
+					</div>
+					
+					<div class="details col-xs-12 col-sm-9 col-md-9 col-lg-9">
+						<h1>LES HAPPEE TUMMEEZ<br>LAUNCH EVENT</h1>
+						<p class="eventAddress">1 Pond Road, Blackheath</p>
+						<p class="eventAddress">London SE3 9JL</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="blanc">
+						<p>Come and taste fine freshly hand cooked food for children</p>
+						<form method="post" action="javascript:function();" name="emails" id="datosuser">
+							<input type="text" id="username" name="username" placeholder="enter your name here" required>
+							<input type="email" id="useremail" name="useremail" placeholder="enter your email here" required>
+							<input type="image" id="confirm" src="imgs/imgoing.png" alt="I'm going">
+						</form>
+						<div class="social">
+							<a href="">
+								<img class="facebook" src="imgs/ico-facebook.png" alt="facebook icon">
+							</a>
+							<a href="">
+								<img class="twitter" src="imgs/ico-twitter.png" alt="twitter icon">
+							</a>
+							<a href="">
+								<img class="pinterest" src="imgs/ico-pinterest.png" alt="pinterest icon">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="foodimg shade">
+			<img src="imgs/food.jpg" class="img-responsive img-rounded" alt="Bulles d'Or food">
+		</div>
+
+		<div class="row about">
+			<div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 shade up">
+				<div class="row sand">
+					<div class="col-sm-5 col-md-4 col-lg-3"></div>
+					<div class="details col-sm-7 col-md-8 col-lg-9">
+						<h3>About <span class="gh">Bulles d'Or </span><span class="punto">.</span> & Dorée</h3>
+						<p>Bulles d’Or. focuses on developing a new baby and parents food line; freshly hand cooked food delivered to your doorstep.
+						Through Bulles d’Or., Dorée and her team want to be like the Artisans serving the everyday and mundane needs of parents (or adults without children who like simple things). So they feel a little lighter as feathers ... or rather, as bubbles ...</p>
+						<p></p>
+					</div>
+					<hr>
+				</div>
+				<div class="row">
+					<div class="sand">
+						<p><b>A drafted portrait of Doree</b></p>
+						<p>"Making people’s life a little simpler and a small part of the World a little better, by getting back to Essentials"</p>
+						<p> This is what Dorée is aiming at above all!</p>
+						<p>The story tells this; she is a simple person, pleasant, funny, creative, spirited, and awfully chilled out.</p>
+						<p>What she said about herself; she is determined, generous, a tad sassy, resolutely indomitable, and greedy of life. Dorée had the idea of setting up Bulles d’Or. because she found in her daughter —Juliette Laïni, the Sweetness of her life— all the inspiration she needed to design and polish the idea. Thanks to Juliette’s needs, Bulles d’Or. was conceived as far as possible in line with the reality of a life lived when one has a child. Which entails willing to grow a child in the most amusing, interesting and healthiest fashion. Starting by the way one will feed that child, and then, add to that a great dose of love!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+	<script>
+	$(document).ready(function (){
+
+		function adjustStyle(width) {
+		    var width = parseInt(width);
+		    if (width < 767) {
+		        $("#size-stylesheet").attr("href", "css/narrow.css");
+		    } else if ((width >= 768) && (width < 992)) {
+		        $("#size-stylesheet").attr("href", "css/medium.css");
+		    } else {
+		       $("#size-stylesheet").attr("href", "css/wide.css"); 
+		    }
+		}
+
+		$(function() {
+		    adjustStyle($(this).width());
+		    $(window).resize(function() {
+		        adjustStyle($(this).width());
+		    });
+		});
+
+           $("#datosuser").submit(function() {
+                   var username = $("#username").val();
+                   var useremail = $("#useremail").val();
+                   var box = $(".boxx");
+                   var boxh1 = $(".boxx h1");
+
+                   $.ajax({
+                       type: "POST",
+                       url:"email.php",
+                       data: {username: username, useremail: useremail}
+                   });
+
+                   if (username.length !== 0 && useremail.length !== 0) {
+                           boxh1.html("Thank you " + username + " for confirming your attendance!");
+                           box.fadeIn(1000);
+                           box.fadeOut(6500);         
+                   }
+           });
+   });
+	</script>
+	
+</body>
+</html>

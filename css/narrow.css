@@ -1,0 +1,178 @@
+body {
+	background-color: #fbffe1;
+}
+
+p, h3 {
+	color: #808080;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.container {
+	max-width: 100%;
+}
+
+.shade{
+	box-shadow: none;
+}
+
+.fechayhora {
+	margin: 0 auto;
+	color: #888;
+	text-align: center;
+	line-height: 1.1em;
+}
+.dosnueve {
+	font-size: 8em;
+	margin-bottom: 0.1em;
+	padding-left: 0.2em;
+	line-height: 1.1em;
+}
+.mar {
+	font-size: 4em;
+	margin-bottom: 0.5em;
+	padding-left: 0.35em;
+}
+.hour {
+	font-size: 1.6em;
+	padding-left: 1.1em;
+	margin-bottom: 1em;
+}
+
+.eventAddress {
+	line-height: .8em;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+z-index: 3;
+}
+
+.logo {
+	font-size: 4.5em;
+} 
+
+.info h1 {
+	font-size: 2em;
+	color: #f62a64;
+}
+
+.details {
+	padding-bottom: 2em;
+}
+
+input[type=text], input[type=email] {
+	padding: 10px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.boxx {
+	display: none;
+	z-index: 9;
+	background-color: #e3e3e3;
+	padding: 2em;
+	position: absolute;
+	left: 0;
+	top:60em;
+}
+
+.boxx h1 {
+	font-size: 1.5em;
+}
+
+.bgimg img{
+	width: 397px;
+	margin: 1em auto;
+}
+
+.gh {
+	font-family: 'Grand Hotel', cursive;
+	color: #00c000;
+}
+
+.gh, .details {
+	text-align: center;
+}
+
+.sand .gh {
+	font-size: 1.5em;
+}
+
+.fontshade{
+	text-shadow:3px 3px #909090;
+}
+
+.punto {
+	color: #f62a64;
+}
+
+.container .event {
+	position: relative;
+	top: 0;
+}
+
+.info {
+	background-color: #eee;
+	clear: both;
+}
+
+.blanc {
+	background-color: #fff;
+	padding: 1em 2em 0.5em 2em;
+}
+
+.sand{
+	background-color: #fbffe1;
+	padding: 1em 2em 0.5em 2em;
+}
+
+
+#username, #useremail {
+	width: 100%;
+	height: 2.6em;
+	margin-bottom: 1em;
+}
+
+#confirm {
+	position: relative;
+	top:0;
+	left:0;
+}
+
+.social {
+	position: relative;
+	padding: 0;
+	margin: 3em auto 3em;
+	width: 100%;
+	height: 60px;
+}
+.facebook {
+	position: absolute;
+	left: 0;
+}
+.twitter {
+	position: absolute;
+	left: 45%;
+}
+.pinterest {
+	position: absolute;
+	right: 0;
+}
+
+.foodimg img{
+	width: 397px;
+	margin: 2em auto;
+}
+
+

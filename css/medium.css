@@ -1,0 +1,156 @@
+body {
+	background-color: #fbffe1;
+}
+
+p, h3 {
+	color: #808080;
+}
+
+p {
+	font-size: 1.5em;
+}
+.container {
+	max-width: 992px;
+}
+
+hr {
+	display: none;
+}
+.shade{
+	box-shadow: 0 0 30px 0 rgba(50, 50, 50, 0.75);
+}
+
+.logo {
+	font-size: 4em;
+	margin-top: 0.7em;
+	margin-left: -1em;
+} 
+.info h1 {
+	font-size: 2em;
+	color: #f62a64;
+}
+
+.fechayhora {
+	color: #888;
+	line-height: 1.1em;
+}
+.dosnueve {
+	font-size: 5em;
+	margin-bottom: 0.05em;
+	padding-left: 0.2em;
+	line-height: 1.1em;
+}
+.mar {
+	font-size: 2.5em;
+	padding-left: 0.4em;
+	margin-bottom: 0.6em;
+}
+.hour {
+	font-size: .96em;
+	padding-left: 1.1em;
+}
+
+.eventAddress {
+	line-height: .8em;
+}
+
+input[type=text], input[type=email] {
+	padding: 10px 0 10px 3px;
+}
+
+.blanc {
+	background-color: #fff;
+	padding: 1em 1em 5em 2em;
+	position: relative;
+}
+
+.social {
+	position: relative;
+	top: 2em;
+	left: 22em;
+}
+
+.foodimg {
+	width: 385px;
+	position: relative;
+	top: -25em;
+	left: -2em;
+	z-index: 3;
+}
+
+.up {
+	position: relative;
+	top: -40em;
+	left: -2.5em;
+}
+
+.about {
+	height: 500px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.boxx {
+	display: none;
+	z-index: 9;
+	background-color: #e3e3e3;
+	padding: 50px;
+	position: absolute;
+	top: 25em;
+	left: 10em;
+}
+
+.bgimg img{
+	width: 397px;
+	margin-left: -2em;
+}
+
+.gh {
+	font-family: 'Grand Hotel', cursive;
+	color: #00c000;
+}
+
+.sand .gh {
+	font-size: 1.5em;
+}
+
+.fontshade{
+	text-shadow:3px 3px #909090;
+}
+
+.punto {
+	color: #f62a64;
+}
+
+.container .event {
+	position: relative;
+	top: -20em;
+	z-index: 2;
+}
+
+.info {
+	background-color: #eee;
+	clear: both;
+}
+
+.sand{
+	background-color: #fbffe1;
+	padding: 1em 2em 0.5em 2em;
+}
+
+#username, #useremail {
+	width: 33%;
+	height: 2.6em;
+	margin-bottom: 1em;
+}
+
+#confirm {
+	position: relative;
+	top:1em;
+	left:0.5em;
+}
+
+
+
